@@ -1,11 +1,10 @@
 
 import './App.css';
-
+import Header from './Components/Header';
 function App() {
   return (
-    <div >
-
-      <input class="text-green-900 focus:text-red-600 ..." placeholder="Enter Your Name"></input>
+    <div className="h-screen bg-green-900">
+      <Header />
     </div>
   );
 }
