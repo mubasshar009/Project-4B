@@ -1,10 +1,12 @@
 
 import './App.css';
+import FirstPage from './Components/FirstPage';
 import Header from './Components/Header';
 function App() {
   return (
-    <div className="h-screen bg-green-900">
+    <div className="">
       <Header />
+      <FirstPage />
     </div>
   );
 }
